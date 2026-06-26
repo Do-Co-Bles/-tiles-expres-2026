@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:
+    radial-gradient(circle at left,#dbeafe 0%,transparent 35%),
+    radial-gradient(circle at right,#ede9fe 0%,transparent 35%),
+    #ffffff;
+
+    color:#111;
+
+    min-height:100vh;
+}
+------------------------------
+header{
+
+    width:100%;
+
+    padding:20px 80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid rgba(0,0,0,.08);
+
+    background:rgba(255,255,255,.55);
+
+    backdrop-filter:blur(20px);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+}
+--------------------------------------
+.logo-container{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo-img{
+
+    width:55px;
+
+    height:55px;
+
+    object-fit:contain;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+---------------------------
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#2563eb;
+
+}
+--------------------------------------------------
+.btn-login,
+.btn-principal,
+.btn-secundario{
+
+    width:190px;
+
+    height:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#111;
+
+    color:white;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-login:hover,
+.btn-principal:hover,
+.btn-secundario:hover{
+
+    background:#222;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+
+}
+------------------------------
+.hero{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:70px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:80px;
+
+}
+-------------------------------
+.hero-logo{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.hero-logo img{
+
+    width:320px;
+
+    object-fit:contain;
+
+}
+------------------------------------
+.hero-texto{
+
+    flex:1;
+
+}
+
+.hero-texto h1{
+
+    font-size:58px;
+
+    font-weight:800;
+
+    margin-bottom:25px;
+
+    line-height:1.2;
+
+}
+
+.hero-texto p{
+
+    color:#555;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
