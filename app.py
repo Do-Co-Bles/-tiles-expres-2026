@@ -16,7 +16,7 @@ cursor = db.cursor()
 # 🏠 Mostrar formulario
 @app.route("/")
 def home():
-    return render_template("registro.html")
+    return render_template("index.html")
 
 
 # 🧾 Registrar usuario
