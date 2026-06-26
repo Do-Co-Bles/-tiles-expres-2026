@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Útiles Expres 2026</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-container">
+
+        <img
+        src="{{ url_for('static', filename='logo.png') }}"
+        class="logo-img">
+
+        <h2 class="logo">
+            Útiles Expres
+        </h2>
+
+    </div>
+
+    <nav>
+
+        <a href="#">Inicio</a>
+
+        <a href="#nosotros">
+            ¿Quiénes Somos?
+        </a>
+
+        <a href="#contacto">
+            Contáctanos
+        </a>
+
+    </nav>
+
+    <a href="/login" class="btn-login">
+        Iniciar Sesión
+    </a>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-logo">
+
+        <img
+        src="{{ url_for('static', filename='logo.png') }}">
+
+    </div>
+
+    <div class="hero-texto">
+
+        <h1>Todo para tus estudios en un solo lugar</h1>
+
+        <p>
+
+            Encuentra cuadernos, mochilas, lápices,
+            marcadores, carpetas, calculadoras y mucho
+            más con la mejor calidad y precio.
+
+        </p>
+
+        <a href="#catalogo" class="btn-principal">
+
+            Ver Catálogo
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+
+<section id="catalogo" class="productos">
+
+    <h2>Lo Más Vendido</h2>
+
+    <div class="slider">
+
+        <button class="flecha">
+
+            &#10094;
+
+        </button>
+
+        <div class="producto">
+
+            <img src="{{ url_for('static', filename='producto1.png') }}">
+
+            <h3>Cuaderno Universitario</h3>
+
+            <p>Bs. 25</p>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="{{ url_for('static', filename='producto2.png') }}">
+
+            <h3>Mochila Escolar</h3>
+
+            <p>Bs. 180</p>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="{{ url_for('static', filename='producto3.png') }}">
+
+            <h3>Cartuchera</h3>
+
+            <p>Bs. 40</p>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="{{ url_for('static', filename='producto4.png') }}">
+
+            <h3>Marcadores</h3>
+
+            <p>Bs. 35</p>
+
+        </div>
+
+        <div class="producto">
+
+            <img src="{{ url_for('static', filename='producto5.png') }}">
+
+            <h3>Calculadora</h3>
+
+            <p>Bs. 95</p>
+
+        </div>
+
+        <button class="flecha">
+
+            &#10095;
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- NOSOTROS -->
+
+<section id="nosotros" class="nosotros">
+
+    <h2>¿Quiénes Somos?</h2>
+
+    <p>
+
+        Somos una tienda dedicada a ofrecer útiles
+        escolares y de oficina de excelente calidad,
+        brindando una atención rápida y productos
+        confiables para estudiantes, docentes y
+        profesionales.
+
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contacto">
+
+    <p>
+
+        © 2026 Útiles Expres
+
+    </p>
+
+    <p>
+
+        Visita nuestra tienda • Contáctanos
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
